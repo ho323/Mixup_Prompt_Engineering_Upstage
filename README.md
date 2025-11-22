@@ -2,14 +2,13 @@
 
 한자, 고어, 한문, 영어 혼용문을 현대 한국어 기사체로 변환하는 프로젝트입니다.  
 Leaderboard Public Score: 0.8360  
+Final Score: 0.8140  
 
 ## 프로젝트 구조
 
 ```
 .
 ├── generate.py          # 문장 생성 스크립트 (3턴 대화 방식)
-├── evaluate.py          # 평가 스크립트
-├── metrics.py           # 평가 메트릭 계산
 ├── prompt.json          # 프롬프트 설정 (JSON 형식)
 ├── prompts/             # 프롬프트 파일들 (Python)
 └── README.md
