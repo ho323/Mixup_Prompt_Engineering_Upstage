@@ -72,17 +72,6 @@ CSV 파일은 다음 컬럼을 포함해야 합니다:
 - `original_sentence`: 원문 문장
 - `answer_sentence`: 변환된 문장
 
-### 평가
-
-`evaluate.py`를 사용하여 생성된 결과를 평가합니다:
-
-```bash
-python evaluate.py \
-    --truth data/ground_truth.csv \
-    --submission submission.csv \
-    --output evaluation_results.csv
-```
-
 ## 프롬프트 설정
 
 프롬프트는 `prompt.json` 파일에서 관리됩니다. JSON 구조:
