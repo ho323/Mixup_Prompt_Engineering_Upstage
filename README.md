@@ -73,40 +73,7 @@ CSV 파일은 다음 컬럼을 포함해야 합니다:
 
 ## 프롬프트 설정
 
-프롬프트는 `prompt.json` 파일에서 관리됩니다. JSON 구조:
-
-```json
-{
-    "template_name": "프롬프트 이름",
-    "description": "프롬프트 설명",
-    "prompt": {
-        "system_turns": [
-            "1턴 system prompt",
-            "2턴 system prompt",
-            "3턴 system prompt"
-        ],
-        "user_turns": [
-            {
-                "template": "1턴 user prompt 템플릿 (Python format string)",
-                "format_vars": ["text"]
-            },
-            {
-                "template": "2턴 user prompt 템플릿",
-                "format_vars": ["text", "first_result"]
-            },
-            {
-                "template": "3턴 user prompt 템플릿",
-                "format_vars": ["text", "second_result"]
-            }
-        ]
-    },
-    "multi_turn": true,
-    "parameters": {
-        "temperature": [0.0, 0.15, 0.1],
-        "max_tokens": [null, null, null]
-    }
-}
-```
+프롬프트는 `prompt.json` 파일에서 관리됩니다.   
 
 ### 3턴 대화 방식
 
