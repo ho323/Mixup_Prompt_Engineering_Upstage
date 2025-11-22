@@ -44,8 +44,8 @@ python generate.py \
     --prompt prompt.json \
     --max_workers 3 \
     --temp1 0.0 \
-    --temp2 0.15 \
-    --temp3 0.05
+    --temp2 0.0 \
+    --temp3 0.0
 ```
 
 #### 주요 옵션
