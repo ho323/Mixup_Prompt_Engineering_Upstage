@@ -113,7 +113,7 @@ python evaluate.py \
     },
     "multi_turn": true,
     "parameters": {
-        "temperature": [0.0, 0.15, 0.05],
+        "temperature": [0.0, 0.15, 0.1],
         "max_tokens": [null, null, null]
     }
 }
